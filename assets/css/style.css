@@ -589,16 +589,19 @@ body {
 .story-content img {
     padding: 0;
     border: 1px solid #6A8D9D;
+    margin-bottom: 3em;
 }
 
 .story-content div h3 {
     color: #6A8D9D;
     line-height: 1;
     margin-top: 0;
+    padding-left: 2em;
 }
 
 .story-content div p {
     text-indent: 25px;
+    padding-left: 2em;
 }
 
 .story-content div a {
@@ -792,7 +795,7 @@ body {
     background: #fff;
     content: "";
     height: 96%;
-    right: 20px;
+    left: 89%;
     position: absolute;
     top: 2%;
     width: 2px;
@@ -803,7 +806,7 @@ body {
     border: 5px solid #6A8D9D;
     border-radius: 50%;
     height: 30px;
-    right: 1px;
+    left: 87%;
     display: inline-block;
     position: absolute;
     width: 30px;
@@ -813,8 +816,20 @@ body {
 .experience-content {
     display: inline-block;
     padding: 0 15px;
-    margin-left: 15px;
     width: 88%;
+}
+
+.edit-experience {
+    display: inline-block;
+    width: 8%;
+    right: -10px;
+}
+
+.item-experience {
+    position: relative;
+    margin-bottom: 5px;
+    display: flex;
+    padding-left: 1.5em;
 }
 
 .experience-content h3 {
